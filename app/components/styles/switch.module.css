@@ -1,0 +1,64 @@
+/* styles/switch.module.css */
+
+.main {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+   
+    border-radius: 50%;
+    color: #b88e2f;
+   
+    background-color: white;
+    border: white;
+    text-align: center;
+    font-size: small;
+    font-weight:bolder;
+    margin-top: 200px;
+    margin-left: 60px;
+    position: relative; /* Ensure button is positioned relative to its container */
+    z-index: 2; /* Ensure button appears above .imagecontainer */
+  }
+  
+  .inner {
+    display: inline;
+  }
+  
+  .imagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b88e2f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    object-fit: cover;
+    
+  }
+  
+  .images img {
+    position: relative;
+    /* Add styles for images */
+    width: 100%; /* Example width */
+    height: 100%; /* Example height */
+    color: white;
+    object-fit:cover ;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

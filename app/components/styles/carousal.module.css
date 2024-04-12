@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Reset body margin */
+
+
+/* Styles for the main container */
+.main {
+  top: 30px;
+  background: rgb(169, 166, 166);
+  width: 100%;
+  min-height: 80vh; /* Set minimum height to cover the viewport */
+  border: 1px solid gray;
+  position: relative; /* Change position to relative */
+}
+
+/* Styles for the square container */
+.square {
+  position: absolute; /* Change position to absolute */
+  top: 50%; /* Center vertically */
+  left: 66%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the square */
+  width:250px;
+height: 180px;
+  max-width: 90%; /* Limit width for smaller screens */
+  max-height: 90%; /* Limit height for smaller screens */
+  padding: 20px; /* Add padding for content */
+  background-color: #FFF3E3; /* Set background color */
+  border: 1px solid black;
+  align-items: center;
+  align-content: center;
+  text-align:left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+
+.img {
+  object-fit: cover;
+  width: 100vw; /* Ensures the image fills the width of its container */
+  height: 90vh; /* Ensures the image fills the height of its container */
+}
+/* Responsive font size */
+@media (max-width: 768px) {
+  .square {
+    width: 180px;
+    font-size: small; /* Adjust font size for smaller screens */
+  }
+  .heading{
+    font-size: large;
+  }
+}
+
+.heading{
+  color: #B88E2F;
+  font-size: x-large;
+  
+  margin: 1px;
+  -webkit-text-stroke-width: 1px; /* Width of the outline */
+  -webkit-text-stroke-color: black; /* Color of the outline */
+  
+
+}
+
+.para{
+  margin: 2px;
+
+margin-bottom: -6px;
+}
+
+.button{
+  background-color: #B88E2F;
+  color: white;
+  border:1px solid #B88E2F;
+  padding: 2px;
+  margin-top: 15px;
+margin-bottom: 10px;
+  display: block;
+  padding: 12px;
+  font-size: x-small;
+  text-align: center;
+  cursor: pointer;
+}
+
+.span{
+  display: block;
+  padding: 2px;
+  margin-top: 2px;
+  font-size: x-small;
+  
+}

@@ -1,0 +1,59 @@
+/* styles.module.css */
+
+/* Apply general styling for consistent appearance */
+.maincontainer {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 100vw;
+   height: 10vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+  
+  /* Adjust logo styling */
+  .logo {
+    margin-left: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  /* Adjust menu styling */
+  .menu {
+    left:60%;
+    top: 15px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    right: 10px;
+    width: fit-content;
+    
+  }
+  
+  /* Style links */
+  .link {
+    margin: 0 8px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Add hover effect to links */
+  .link:hover {
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .maincontainer {
+      width:100vw;
+      font-size: small; /* Adjust font size for smaller screens */
+      overflow: hidden;
+    }
+    .menu{
+      left: 40%;
+    }
+  }

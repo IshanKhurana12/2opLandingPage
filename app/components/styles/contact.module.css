@@ -1,0 +1,44 @@
+/* Contact.module.css */
+
+.contactContainer {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .emailLink {
+    display: inline-block;
+    font-size: 20px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .emailLink:hover {
+    color: #0056b3;
+  }
+  
+  .footer {
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+  }
+  
